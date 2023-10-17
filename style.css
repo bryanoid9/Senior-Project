@@ -126,3 +126,9 @@ body {
     text-decoration:none;
     cursor: pointer;
 }
+
+.form__link {
+    color: var(--color-secondary);
+    text-decoration:none;
+    cursor: pointer;
+}
