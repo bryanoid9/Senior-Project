@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<head> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Calorie Tracker</title>
+    <link rel="shortcut icon" href="/assets/favicon.ico"> 
+    <link rel="stylesheet" href="CalorieTrackerStyle.css"> 
+</head>
+
+<body>
+    <section class="meal-logging">
+        <h1>Meal Logging</h1>
+        
+        <div class="row">
+            <!-- Breakfast Section -->
+            <div class="meal-col">
+                <h3>Breakfast</h3>
+                <input type="text" placeholder="Enter your breakfast item..." />
+                <button onclick="fetchFoodForMeal('breakfast')">Enter</button>
+                
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Food</th>
+                            <th>Calories</th>
+                            <th>Protein</th>
+                            <th>Fat</th>
+                        </tr>
+                    </thead>
+                    <tbody id="breakfast-data">
+                        <!-- Data will be populated here -->
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Lunch Section -->
+            <div class="meal-col">
+                <h3>Lunch</h3>
+                <input type="text" placeholder="Enter your lunch item..." />
+                <button onclick="fetchFoodForMeal('lunch')">Enter</button>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Food</th>
+                            <th>Calories</th>
+                            <th>Protein</th>
+                            <th>Fat</th>
+                        </tr>
+                    </thead>
+                    <tbody id="lunch-data">
+                        <!-- Data will be populated here -->
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Dinner Section -->
+            <div class="meal-col">
+                <h3>Dinner</h3>
+                <input type="text" placeholder="Enter your dinner item..." />
+                <button onclick="fetchFoodForMeal('dinner')">Enter</button>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Food</th>
+                            <th>Calories</th>
+                            <th>Protein</th>
+                            <th>Fat</th>
+                        </tr>
+                    </thead>
+                    <tbody id="dinner-data">
+                        <!-- Data will be populated here -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+    <script src="calorieTrackerScript.js"></script>
+</body>
