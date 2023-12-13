@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<head> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Welcome Page</title>
+    <link rel="shortcut icon" href="/assets/favicon.ico"> 
+    <link rel="stylesheet" href="{{ url_for('static', filename='welcomeStyle.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap" rel="stylesheet">
+</head>
+<body> 
+    <section class="header">
+    <nav>
+        <a href="welcome.html"><img src="{{ url_for('static', filename='NutriBotLogo.png') }}"></a>
+        <div class="nav-links">
+            <ul>
+                <li><a href="/features/calorie-tracker">CALORIE TRACKER</a></li>
+                <li><a href="/main">AI CHATBOT</a></li>
+                <li><a href="">PROFILE</a></li>
+                <li><a href="/logout">LOG OUT</a></li>
+            </ul>
+        </div>
+    </nav>
+
+<div class="text-box">
+    <h1>Welcome to NutriBot</h1>
+    <p>
+        An online calorie tracker with a chat bot that helps you simplify your fitness journey from meals 
+        to exploring different exercises to optimize your training! 
+    </p>
+    <a href="" class="hero-btn">Access Chatbot Here</a>
+</div>
+</section>
+
+<!--About us-->
+
+<section class="Creators"> 
+    <h1>About the Creators</h1>
+    <p></p>
+
+    <div class="row">
+        <div class="creator-col">
+            <h3>Eduardo Castro Becerra</h3>
+            <p>Hello! I'm Eduardo, a passionate full-stack developer dedicated to crafting dynamic and responsive websites. With a keen eye for detail and a commitment to delivering high-quality user experiences, I specialized in both front-end and back-end development. https://www.linkedin.com/in/ecastrobecerra/</p>
+        </div>
+        <div class="creator-col">
+            <h3>Bryan Martinez Ramirez</h3>
+            <p>Hello! I'm Bryan, a passionate full-stack developer dedicated to crafting dynamic and responsive websites. With a keen eye for detail and a commitment to delivering high-quality user experiences, I specialized in both front-end and back-end development. https://www.linkedin.com/in/bmartirami/.</p>
+        </div>
+    </div>
+</section>
+</body>
