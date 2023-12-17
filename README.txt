@@ -39,3 +39,7 @@ AWS website hosting.
 Conclusion:
 NutriBot stands at the intersection of technology and wellness, embodying a tool that harnesses the power of AI to foster healthier lifestyle choices. As the project grows, it will continue to embrace new technologies and feedback from its user base to improve and expand its capabilities.
 
+How to run:
+1. Download files
+2. Run on local server
+3. Can use any working chatgpt api key or email for api key
